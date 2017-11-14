@@ -89,4 +89,20 @@ API
 + finishAllActivity        :结束所有Activity
 + AppExit                  :退出应用程序
 
+六、String 使用工具——————》StringUtils
++ isEmpty：String/CharSequence/EditText判空
++ parseArrayInt:是否解析ArrayInt
++ parseArrayString:是否解析ArrayString
++ isEqual:判断两个String是否相同
++ trimEnd：去除字符串尾部空格
++ convert：将字符串中所有的非标准字符（双字节字符）替换成两个标准字符（**，或其他的也可以）
++ getUTF8Dom：获取UTF8Dom
++ copyString：复制String
++ getUrlName：换取url名称
++ getTime：获取时间
++ parseDouble：String转换成Double
++ parseInt：String转换成int
++ parseLong：转换成long
++ subString：截取某段字符串
+
 ----------------------------后续会添加其他工具-------------------------------------
