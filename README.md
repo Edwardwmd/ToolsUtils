@@ -106,3 +106,19 @@ API
 + subString：截取某段字符串
 
 ----------------------------后续会添加其他工具-------------------------------------
+
+
+#使用方法
+
+#### 第一步：
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+	
+#### 第二步：
+		dependencies {
+    	        compile 'com.github.Edwardwmd:ToolsUtils:v1.0.0'
+    	}
